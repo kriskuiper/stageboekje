@@ -5,16 +5,16 @@
   <title>{{ title }}</title>
 </head>
 <body>
-  <div class="container">
+  <header>
     <h1>{{ title }}</h1>
+  </header>
 
+  <main>
     {{ content | safe }}
+  </main>
 
-    <footer>
-      Made with 💖 by {{ site.author }}
-    </footer>
-  </div>
-
-  {% include("components/scripts.html") %}
+  <footer>
+    Made with 💖 by {{ site.author }}
+  </footer>
 </body>
 </html>
