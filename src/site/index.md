@@ -1,8 +1,6 @@
 ---
-title: "A very basic static site starter"
+title: "Welkom op Stageboekje"
 layout: "default"
 ---
 
-You can use this starter to build your own static website.
-
-[Template setup](/setup)
+Alles over m'n stage bij [Enrise](https://enrise.com/) kan je hier binnenkort vinden.
