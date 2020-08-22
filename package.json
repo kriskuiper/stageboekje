@@ -7,17 +7,9 @@
   "license": "MIT",
   "scripts": {
     "prebuild": "rimraf _site",
-    "build": "run-s build:*",
-    "build:eleventy": "cross-env ELEVENTY_ENV=production eleventy",
-    "build:js": "rollup -c",
-    "build:css": "node-sass src/assets/scss/index.scss _site/styles/index.css",
+    "build": "cross-env ELEVENTY_ENV=production eleventy",
     "predev": "rimraf _site",
-    "dev": "run-p dev:*",
-    "dev:eleventy": "cross-env ELEVENTY_ENV=development eleventy --serve --watch --port $PORT",
-    "dev:js": "rollup -c --watch",
-    "dev:css": "run-s build:css && chokidar \"src/assets/scss/index.scss\" -c \"yarn run build:css\"",
-    "vercel:init": "vercel",
-    "vercel:dev": "vercel dev"
+    "dev": "cross-env ELEVENTY_ENV=development eleventy --serve --watch --port 3031"
   },
   "dependencies": {
     "serialize-javascript": "^4.0.0"
