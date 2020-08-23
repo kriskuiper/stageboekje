@@ -1,4 +1,5 @@
-const use404 = require('./lib/use-404')
+const use404 = require('./utils/use-404')
+const minifyHtml = require('./utils/minify-html')
 
 module.exports = (eleventyConfig) => {
   eleventyConfig.addLayoutAlias('default', 'layouts/default.html')
@@ -6,6 +7,8 @@ module.exports = (eleventyConfig) => {
 
   eleventyConfig.addPassthroughCopy({ 'src/static/styles': 'styles' })
   eleventyConfig.addPassthroughCopy({ 'src/static/fonts': 'fonts' })
+
+  eleventyConfig.addTransform('htmlmin', minifyHtml)
 
   return {
     dir: {
