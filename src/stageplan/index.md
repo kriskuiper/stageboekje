@@ -1,8 +1,13 @@
 ---
 title: "Stageplan"
-layout: "default"
+layout: "stageplan"
+nameInTableOfContents: Stageplan
 tags: base
-name: "Stageplan"
 ---
 
-Alles over mijn stageplan kan je hier binnenkort vinden, verdeeld in subcategorieën.
+{% include 'components/meta-information.md' %}
+
+## Inhoudsopgave
+{% for page in collections.stageplan %}
+  1. [{{ page.data.nameInTableOfContents }}]({{ page.url }})
+{% endfor %}

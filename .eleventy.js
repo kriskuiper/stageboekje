@@ -5,6 +5,7 @@ const minifyHtml = require('./utils/minify-html')
 
 module.exports = (eleventyConfig) => {
   eleventyConfig.addLayoutAlias('default', 'layouts/default.html')
+  eleventyConfig.addLayoutAlias('stageplan', 'layouts/stageplan.html')
 
   eleventyConfig.setBrowserSyncConfig(use404)
 

@@ -1,0 +1,14 @@
+{% set previousPage = collections.stageplan | getPreviousCollectionItem(page) %}
+{% set nextPage = collections.stageplan | getNextCollectionItem(page) %}
+
+{% if nextPage or previousPage %}
+<div class="stageplan-page-controls">
+  {% if previousPage %}
+  <a href="{{ previousPage.url }}">Vorige: {{ previousPage.data.nameInTableOfContents }}</a>
+  {% endif %}
+
+  {% if nextPage %}
+  <a href="{{ nextPage.url }}">Volgende: {{ nextPage.data.nameInTableOfContents }}</a>
+  {% endif %}
+</div>
+{% endif %}

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include("components/meta.html") %}
+  <title>{{ title }}</title>
+</head>
+<body>
+  <div class="container">
+    <main>
+      {{ content | safe }}
+    </main>
+
+    <footer>
+      {% include 'components/stageplan-page-controls.html' %}
+    </footer>
+  </div>
+</body>
+</html>

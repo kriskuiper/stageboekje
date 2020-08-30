@@ -1,7 +1,7 @@
 ---
 title: "Welkom op Stageboekje"
 layout: "default"
-name: Inleiding & inhoudsopgave
+nameInTableOfContents: Inleiding & inhoudsopgave
 tags: base
 ---
 
@@ -12,5 +12,5 @@ In dit stageboekje vind je alles wat ik heb gedaan tijdens mijn stage. Allereers
 
 ## Inhoudsopgave
 {% for page in collections.base %}
-  1. [{{ page.data.name }}]({{ page.url }})
+  1. [{{ page.data.nameInTableOfContents }}]({{ page.url }})
 {% endfor %}
