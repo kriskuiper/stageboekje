@@ -6,18 +6,18 @@
   {% if previousPage %}
   <a
     href="{{ previousPage.url }}"
-    class="stageplan-page-controls__control"
+    class="stageplan-page-controls__control stageplan-page-controls__control--previous-page"
   >
-    {{ "<" }} {{ previousPage.data.nameInTableOfContents }}
+    {{ previousPage.data.nameInTableOfContents }}
   </a>
   {% endif %}
 
   {% if nextPage %}
   <a
     href="{{ nextPage.url }}"
-    class="stageplan-page-controls__control"
+    class="stageplan-page-controls__control stageplan-page-controls__control--next-page"
   >
-    {{ nextPage.data.nameInTableOfContents }} {{ ">" }}
+    {{ nextPage.data.nameInTableOfContents }}
   </a>
   {% endif %}
 </div>
