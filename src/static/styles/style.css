@@ -37,10 +37,14 @@
 
   --line-height-default: 1.45;
 
-  --max-content-width: 50rem;
+  --max-content-width: 50em;
 }
 
 /* Base & resets */
+html {
+  font-size: 100%;
+}
+
 *,
 *:before,
 *:after {
