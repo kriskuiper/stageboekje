@@ -1,6 +1,6 @@
 ---
 title: "Stageplan"
-layout: "stageplan"
+layout: "default"
 nameInTableOfContents: Stageplan
 tags: base
 ---
