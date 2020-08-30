@@ -37,6 +37,11 @@
 
   --line-height-default: 1.45;
 
+  /* Colors */
+  --color-darkest: #000;
+  --color-lightgrey: #eee;
+  --color-links: #0984e3;
+
   --max-content-width: 50em;
 }
 
@@ -98,6 +103,28 @@ h4 {
   font-size: var(--font-size-default);
 }
 
+/* Page controls */
+.stageplan-page-controls {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stageplan-page-controls__control {
+  flex: 0 0 calc(50% - 0.5rem);
+  border: 1px solid var(--color-darkest);
+  border-radius: 5px;
+  background: var(--color-lightgrey);
+  padding: 1rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  text-decoration: none;
+  color: var(--color-darkest);
+}
+
+/*
+  We mostly have to change variables here since almost every component uses variables.
+*/
 @media (min-width: 30rem) {
   :root {
     --font-size-default: 1.15rem;

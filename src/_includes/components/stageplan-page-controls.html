@@ -4,11 +4,21 @@
 {% if nextPage or previousPage %}
 <div class="stageplan-page-controls">
   {% if previousPage %}
-  <a href="{{ previousPage.url }}">Vorige: {{ previousPage.data.nameInTableOfContents }}</a>
+  <a
+    href="{{ previousPage.url }}"
+    class="stageplan-page-controls__control"
+  >
+    {{ "<" }} {{ previousPage.data.nameInTableOfContents }}
+  </a>
   {% endif %}
 
   {% if nextPage %}
-  <a href="{{ nextPage.url }}">Volgende: {{ nextPage.data.nameInTableOfContents }}</a>
+  <a
+    href="{{ nextPage.url }}"
+    class="stageplan-page-controls__control"
+  >
+    {{ nextPage.data.nameInTableOfContents }} {{ ">" }}
+  </a>
   {% endif %}
 </div>
 {% endif %}
