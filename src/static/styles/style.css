@@ -26,6 +26,20 @@
   font-display: fallback;
 }
 
+/* Root variables */
+:root {
+  /* Typography */
+  --font-size-default: 1rem;
+  --font-size-larger: 1.25rem;
+
+  --font-family-body: 'iA Writer Quattro S', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  --font-family-titles: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+
+  --line-height-default: 1.45;
+
+  --max-content-width: 50rem;
+}
+
 /* Base & resets */
 *,
 *:before,
@@ -38,11 +52,17 @@ body {
   margin: 0;
 }
 
+.container {
+  width: 100%;
+  max-width: var(--max-content-width);
+  padding: 1rem;
+  margin: 0 auto;
+}
+
 body > .container {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  padding: 1rem;
 }
 
 main {
@@ -54,13 +74,29 @@ body,
 button,
 input,
 textarea {
-  font-family: 'iA Writer Quattro S', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-  line-height: 1.45;
-  font-size: 1rem;
+  font-family: var(--font-family-body);
+  line-height: var(--line-height-default);
+  font-size: var(--font-size-default);
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4 {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-  font-size: 1.25rem;
+  font-family: var(--font-family-titles);
+  font-size: var(--font-size-larger);
+}
+
+h2,
+h3,
+h4 {
+  font-size: var(--font-size-default);
+}
+
+@media (min-width: 30rem) {
+  :root {
+    --font-size-default: 1.15rem;
+    --font-size-larger: 1.40rem;
+  }
 }
