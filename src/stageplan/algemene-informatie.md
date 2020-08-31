@@ -17,6 +17,8 @@ tags: stageplan
 
 **Plaats**: {{ enrise.place }}
 
+**Telefoon**: {{ enrise.genericPhoneNumber }}
+
 ### Contactgegevens bedrijfsbegeleider
 **Naam**: {{ mentor.name }}
 
