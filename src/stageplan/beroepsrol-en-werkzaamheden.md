@@ -5,4 +5,4 @@ nameInTableOfContents: "Beroepsrol en werkzaamheden"
 tags: stageplan
 ---
 
-Over mijn beroepsrol en werzaamheden
+Mijn werk als Front-end Developer bij Enrise.
