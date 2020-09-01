@@ -128,6 +128,17 @@ h4 {
   font-size: var(--font-size-default);
 }
 
+p {
+  margin: 0;
+}
+
+h1 + p,
+h2 + p,
+h3 + p,
+p + p {
+  margin-top: var(--spacing-small);
+}
+
 /* Meta information */
 .meta-information {
   margin-bottom: var(--spacing-large);

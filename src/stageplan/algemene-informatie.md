@@ -1,6 +1,7 @@
 ---
 title: "Algemene informatie"
 layout: "stageplan"
+intro: "Wat algemene informatie over de stage."
 nameInTableOfContents: "Algemene informatie"
 tags: stageplan
 ---

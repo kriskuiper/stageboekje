@@ -1,6 +1,7 @@
 ---
 title: "Stageplan"
 layout: "default"
+intro: "Het volledige stageplan"
 nameInTableOfContents: Stageplan
 tags: base
 ---
