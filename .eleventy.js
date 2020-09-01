@@ -18,14 +18,14 @@ module.exports = (eleventyConfig) => {
 
   return {
     dir: {
-      input: "src",
-      data: "_data",
-      includes: "_includes",
-      output: "_site"
+      input: 'src',
+      data: '_data',
+      includes: '_includes',
+      output: '_site'
     },
-    templateFormats: ["html", "md", "11ty.js"],
-    htmlTemplateEngine: "njk",
-    markdownTemplateEngine: "njk",
+    templateFormats: ['html', 'md', '11ty.js'],
+    htmlTemplateEngine: 'njk',
+    markdownTemplateEngine: 'njk',
     passthroughFileCopy: true
   }
 }
