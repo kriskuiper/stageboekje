@@ -5,7 +5,11 @@ nameInTableOfContents: Stageplan
 tags: base
 ---
 
-{% include 'components/meta-information.md' %}
+<section class="meta-information">
+
+  {% include 'components/meta-information.md' %}
+
+</section>
 
 ## Inhoudsopgave
 {% for page in collections.stageplan %}
