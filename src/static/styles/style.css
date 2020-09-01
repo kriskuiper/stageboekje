@@ -80,6 +80,16 @@ main {
   flex-grow: 1;
 }
 
+main, footer {
+  margin-top: 20px;
+}
+
+@media (min-width: 30rem) {
+  main, footer {
+    margin-top: 40px;
+  }
+}
+
 /* Typography */
 body,
 button,
@@ -170,6 +180,11 @@ h4 {
   pointer-events: none;
 }
 
+/* Algemene informatie sections */
+.algemene-informatie__section + .algemene-informatie__section {
+  margin-top: 30px;
+}
+ 
 /*
   We mostly have to change variables here since almost every component uses variables.
 */
