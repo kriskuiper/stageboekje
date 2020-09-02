@@ -200,7 +200,7 @@ p + p {
 }
 
 /* Algemene informatie sections */
-.algemene-informatie__section + .algemene-informatie__section {
+main section + section {
   margin-top: 30px;
 }
  
