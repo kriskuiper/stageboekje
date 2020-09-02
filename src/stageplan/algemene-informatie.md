@@ -6,14 +6,14 @@ nameInTableOfContents: "Algemene informatie"
 tags: stageplan
 ---
 
-<section class="algemene-informatie__section">
+<section>
 
 ### Stageperiode
 31 augustus 2020 - 18 januari 2021
 
 </section>
 
-<section class="algemene-informatie__section">
+<section>
 
 ### Contactgegevens bedrijf
 **Naam**: {{ enrise.name }}
@@ -28,7 +28,7 @@ tags: stageplan
 
 </section>
 
-<section class="algemene-informatie__section">
+<section>
 
 ### Contactgegevens bedrijfsbegeleider
 **Naam**: {{ mentor.name }}
@@ -37,7 +37,7 @@ tags: stageplan
 
 </section>
 
-<section class="algemene-informatie__section">
+<section>
 
 ### Contactgegevens stagiair
 **Naam**: {{ author.name }}
