@@ -25,6 +25,6 @@ Naast zijn werkzaamheden als developer houdt John zich binnen het team ook bezig
 <section>
 
 ## Waarom kan John mij begeleiden?
-Ik ben persoonlijk van mening dat John mij goed kan begeleiden tijdens mijn stage omdat hij met name docent-achtige kwaliteiten heeft die mij momenteel kunnen helpen in m'n ontwikkeling als developer. Met name op het gebied van het plannen en overzicht houden op werkzaamheden, ik wil zelf nog wel eens .
+Ik ben persoonlijk van mening dat John mij goed kan begeleiden tijdens mijn stage omdat hij met name docent-achtige kwaliteiten heeft die mij momenteel kunnen helpen in m'n ontwikkeling als developer. Met name op het gebied van het plannen en overzicht houden op werkzaamheden, ik wil zelf nog wel eens het overzicht makkelijk kwijtraken.
 
 </section>
