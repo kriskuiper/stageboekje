@@ -46,7 +46,7 @@ Van de opgeleverde PR's laat ik een aantal iteraties zien in mijn verslag, om zo
 <section>
 
 ## Evalueren
-> _Tijdens mijn stage bij Enrise wil ik ook grotere tickets oppakken waarbij ik mijn eigen werk moet gaan plannen en organiseren om zo tot een beter eindproduct te komen, ik ga dit laten zien door je mee te nemen in mijn keuzes tijdens het werken aan dat specifieke ticket. Daarnaast zal ik er tijdens een retrospective op reflecteren._
+> _Voor het einde van mijn stage wil ik minimaal vijf Pull Requests van andere developers gereviewed hebben, hierbij kijkende naar de kwaliteit van de code en ethische aspecten die in overweging genomen zouden moeten worden._
 
 Naast dat ik voor de Meeting Room Booker al veel eigen (grote) tickets moet oppakken en daarover dingen in mijn verslag zet (zie ook het volgende punt) zal ik ook tijdens het werken aan een teamproject je een keer meenemen in de ontwikkeling van een groter ticket.
 
